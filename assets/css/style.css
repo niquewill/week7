@@ -1,0 +1,98 @@
+.container { 
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    font-family: "Times New Roman", Georgia, sans-serif;
+    position: fixed;
+    color: #FDFDFD;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+    color: #011133;
+    text-shadow: #FDFDFD 0 0 10px;
+    text-align: center;
+}
+
+img {
+    left: 0px;
+    top: 0px;
+}
+
+#movieInfo {
+    color: black;
+    font-weight: bold;
+    font-size: 2.5em;
+}
+
+.movieView {
+    width: 40px;
+    height: 60px;
+    font-size: 2.5em;
+}
+/*
+gifRating {
+    width: 40px;//
+    height: 60px;//
+    font-size: 2.5em;
+    text-align: center;//
+//}//
+
+gifView {
+    width: 40px;
+    height: 60px;
+    font-size: 2.5em;
+}
+*/
+
+h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: #FDFDFD 0 0 10px;
+}
+
+footer {
+    height: 55px;
+    bottom: 0;
+    font-size:2.5em;
+    background-color: #011133; 
+    position: fixed;
+    width: 100%;
+    border-top: 5px outset red;
+    color: #FDFDFD; 
+    text-align: center;
+   }
+button {
+  @include corners (5px);
+    background:#011133;
+    color: red;
+    border: solid 1px white;
+    font-size:1.5em;
+/*    padding:18px 10px;*/
+    width:180px;
+    margin: 120px 100px 120px 100px;
+    outline: none;
+    position: inherit;
+    text-shadow: #FDFDFD 0 0 10px;
+}
+
+#addMovie, .p {
+    background-color: #011133; 
+    color: #FDFDFD; 
+    align-content: center;
+    text-align: center;
+    position: fixed;
+}
+/*
+#movie-form {//
+    @include corners (10px);
+    background:#011133;
+    color: red;
+    border: solid 1px red;
+    width: 90px;
+    height: 50px;
+    font-size:1.5em;
+}//
+*/
